@@ -11,7 +11,7 @@ I build tools that make software tell the truth about whether it works: flaky br
 - **[DocMind](https://github.com/nancy6547/docmind)**: ask questions about any PDF, scanned ones too: OCR, hybrid search, and every answer sentence checked. [Live demo](https://docmind-4trkdxlqhqz3mtx3wnmpja.streamlit.app/)
 - **[Attention-Guard](https://github.com/nancy6547/attention-guard)**: learns when you drift into doomscrolling from your own check-ins, privately on your computer. [Demo report](https://nancy6547.github.io/demos/attention-guard/)
 
-**Open source**
+**Open source: 4 PRs merged into Google projects** (Puppeteer and Chrome DevTools MCP)
 
 - **Puppeteer (Google), 2 merged:** [#15587](https://github.com/puppeteer/puppeteer/pull/15587) `handshakeTimeout` so connecting to a browser that never answers fails fast · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `page.setGeolocation(null)` removes a location override (CDP and BiDi), requested by the maintainer
 - **Chrome DevTools MCP (Google), 2 merged:** [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) unhandled promise rejections show their reason · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) Lighthouse explains unsupported URLs · open: · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) redirect chains · [#3145](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3145) geolocation
