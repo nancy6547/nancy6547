@@ -13,8 +13,9 @@ I build tools that make software tell the truth about whether it works: flaky br
 
 **Open source**
 
-- **Puppeteer (Google), merged:** [#15587](https://github.com/puppeteer/puppeteer/pull/15587) adds a `handshakeTimeout` option so connecting to a browser that never answers fails fast instead of hanging
-- **Chrome DevTools MCP (Google):** [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) Lighthouse error for unsupported URLs · [#3145](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3145) clear geolocation emulation · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) show the reason for unhandled promise rejections
+- **Puppeteer (Google), 2 merged:** [#15587](https://github.com/puppeteer/puppeteer/pull/15587) `handshakeTimeout` so connecting to a browser that never answers fails fast · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `page.setGeolocation(null)` removes a location override (CDP and BiDi), requested by the maintainer
+- **Chrome DevTools MCP (Google), 1 merged, 1 approved:** [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) unhandled promise rejections show their reason (merged) · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) actionable Lighthouse error (approved) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) redirect chains · [#3145](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3145) geolocation
+- **LLM testing tools:** [promptfoo #11780](https://github.com/promptfoo/promptfoo/pull/11780) CSV perplexity tests could never pass · [DeepEval #3470](https://github.com/confident-ai/deepeval/pull/3470) JSON dataset loader crash (both found by reading the code)
 - **Stagehand (Browserbase):** [#3175](https://github.com/browserbase/stagehand/pull/3175) networkidle fix · [#3194](https://github.com/browserbase/stagehand/pull/3194) extension upload on Deno
 - **Documenso:** [#3445](https://github.com/documenso/documenso/issues/3445) issue: 26 sleeps in the E2E tests that can be removed
 
