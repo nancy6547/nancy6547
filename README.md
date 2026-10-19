@@ -11,10 +11,11 @@ I build tools that make software tell the truth about whether it works: flaky br
 - **[DocMind](https://github.com/nancy6547/docmind)**: ask questions about any PDF, scanned ones too: OCR, hybrid search, and every answer sentence checked. [Live demo](https://docmind-4trkdxlqhqz3mtx3wnmpja.streamlit.app/)
 - **[Attention-Guard](https://github.com/nancy6547/attention-guard)**: learns when you drift into doomscrolling from your own check-ins, privately on your computer. [Demo report](https://nancy6547.github.io/demos/attention-guard/)
 
-**Open source: 5 PRs merged into Google projects** (Puppeteer and Chrome DevTools MCP)
+**Open source: 7 PRs merged**: 6 into Google projects (Puppeteer and Chrome DevTools MCP) and 1 into Hugging Face sentence-transformers
 
 - **Puppeteer (Google), 2 merged:** [#15587](https://github.com/puppeteer/puppeteer/pull/15587) `handshakeTimeout` so connecting to a browser that never answers fails fast · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `page.setGeolocation(null)` removes a location override (CDP and BiDi), requested by the maintainer
-- **Chrome DevTools MCP (Google), 3 merged:** [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) unhandled promise rejections show their reason · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) Lighthouse explains unsupported URLs · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) redirect chains only list earlier hops
+- **Chrome DevTools MCP (Google), 4 merged:** [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) unhandled promise rejections show their reason · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) Lighthouse explains unsupported URLs · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) redirect chains only list earlier hops · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console shows real Map, Set, DOM node and cyclic values
+- **sentence-transformers (Hugging Face), 1 merged:** [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) custom `rank_discount_fn` in PListMLE now gets real rank positions instead of a padding mask
 - **Playwright (Microsoft):** found a codegen bug, [#43459](https://github.com/microsoft/playwright/issues/43459): multiline aria snapshots escaped `${` twice, so generated tests crashed. Reported with the root cause; fixed by the Playwright team in [#43472](https://github.com/microsoft/playwright/pull/43472)
 - **Documenso:** [#3445](https://github.com/documenso/documenso/issues/3445) issue: 26 sleeps in the E2E tests that can be removed
 
