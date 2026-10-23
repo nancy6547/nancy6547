@@ -1,24 +1,26 @@
-### Hi, I'm Nancy 👋
+## Nancy Singh
 
-I build tools that make software tell the truth about whether it works: flaky browser tests and LLM answers that aren't backed by their sources. CS grad (2026), Delhi, open to remote or relocating.
+I work on browser testing tools and LLM reliability. 2026 CS graduate, Delhi.
 
-**Projects**
+### Open source
 
-- **[Junban](https://github.com/nancy6547/junban)**: finds the exact order of API responses that makes a flaky Playwright test fail, and writes a test that fails every time. Caught 6/6 rare races by the 5th run; plain reruns caught 2 in 3,000. [Live report](https://nancy6547.github.io/demos/junban/)
-- **[Zeitaku](https://github.com/nancy6547/zeitaku)**: a TypeScript codemod that replaces hard-coded sleeps in Playwright tests with network-aware waits (Chrome DevTools Protocol). Found 240 sleeps across 7 open-source repos. [Playground](https://nancy6547.github.io/demos/zeitaku/)
-- **[HalluGuard](https://github.com/nancy6547/halluguard)**: flags the sentences in a RAG answer that its sources don't support, with an NLI model, benchmarked on RAGTruth. [Live demo](https://halluguard-ak4qp46x8utv6muwu3mgcd.streamlit.app/)
-- **[Kensa](https://github.com/nancy6547/kensa)**: tests a RAG app without knowing the right answers: changes the input in ways with a known effect (delete the source, change a number) and checks the answer reacts correctly. [Demo report](https://nancy6547.github.io/demos/kensa/)
-- **[DocMind](https://github.com/nancy6547/docmind)**: ask questions about any PDF, scanned ones too: OCR, hybrid search, and every answer sentence checked. [Live demo](https://docmind-4trkdxlqhqz3mtx3wnmpja.streamlit.app/)
-- **[Attention-Guard](https://github.com/nancy6547/attention-guard)**: learns when you drift into doomscrolling from your own check-ins, privately on your computer. [Demo report](https://nancy6547.github.io/demos/attention-guard/)
+8 PRs merged into Google and Hugging Face projects, plus a bug I found in Microsoft Playwright.
 
-**Open source: 7 PRs merged**: 6 into Google projects (Puppeteer and Chrome DevTools MCP) and 1 into Hugging Face sentence-transformers
+- **Puppeteer** · [#15587](https://github.com/puppeteer/puppeteer/pull/15587) WebSocket handshake timeout · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `setGeolocation(null)` clears the override · [#15595](https://github.com/puppeteer/puppeteer/pull/15595) `respond()` skips undefined headers on CDP
+- **Chrome DevTools MCP** · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console, network and Lighthouse fixes
+- **sentence-transformers** · [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) PListMLE custom rank discount received a mask instead of ranks
+- **Playwright** · reported [#43459](https://github.com/microsoft/playwright/issues/43459), a codegen escaping bug, fixed in [#43472](https://github.com/microsoft/playwright/pull/43472)
 
-- **Puppeteer (Google), 2 merged:** [#15587](https://github.com/puppeteer/puppeteer/pull/15587) `handshakeTimeout` so connecting to a browser that never answers fails fast · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `page.setGeolocation(null)` removes a location override (CDP and BiDi), requested by the maintainer
-- **Chrome DevTools MCP (Google), 4 merged:** [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) unhandled promise rejections show their reason · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) Lighthouse explains unsupported URLs · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) redirect chains only list earlier hops · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console shows real Map, Set, DOM node and cyclic values
-- **sentence-transformers (Hugging Face), 1 merged:** [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) custom `rank_discount_fn` in PListMLE now gets real rank positions instead of a padding mask
-- **Playwright (Microsoft):** found a codegen bug, [#43459](https://github.com/microsoft/playwright/issues/43459): multiline aria snapshots escaped `${` twice, so generated tests crashed. Reported with the root cause; fixed by the Playwright team in [#43472](https://github.com/microsoft/playwright/pull/43472)
-- **Documenso:** [#3445](https://github.com/documenso/documenso/issues/3445) issue: 26 sleeps in the E2E tests that can be removed
+### Projects
 
-**Stack:** TypeScript · Node.js · Playwright · CDP · Python · PyTorch · Hugging Face · FAISS
+| | |
+|---|---|
+| [Junban](https://github.com/nancy6547/junban) | Finds the API response order that breaks a flaky Playwright test. 6/6 rare races by run 5, vs 2 in 3,000 plain reruns. |
+| [Zeitaku](https://github.com/nancy6547/zeitaku) | Replaces hard-coded sleeps in Playwright tests with network-aware waits over CDP. |
+| [HalluGuard](https://github.com/nancy6547/halluguard) | Flags RAG answer sentences their sources don't support, using an NLI cross-encoder. |
+| [Kensa](https://github.com/nancy6547/kensa) | Metamorphic testing for RAG apps. |
+| [DocMind](https://github.com/nancy6547/docmind) | Question answering over PDFs, scanned ones included, with hybrid search. |
 
-[Portfolio](https://nancy6547.github.io) · [LinkedIn](https://linkedin.com/in/nancy-singh-84367722a) · [Medium](https://medium.com/@singhnancy2004) · singhnancy2004@gmail.com
+TypeScript · Python · Playwright · Chrome DevTools Protocol · PyTorch
+
+[nancy6547.github.io](https://nancy6547.github.io) · [LinkedIn](https://linkedin.com/in/nancy-singh-84367722a) · singhnancy2004@gmail.com
