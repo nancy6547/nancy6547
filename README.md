@@ -10,6 +10,7 @@ I work on browser testing tools and LLM reliability. 2026 CS graduate, Delhi.
 - **Chrome DevTools MCP** · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console, network and Lighthouse fixes
 - **sentence-transformers** · [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) PListMLE custom rank discount received a mask instead of ranks
 - **Playwright** · reported [#43459](https://github.com/microsoft/playwright/issues/43459), a codegen escaping bug, fixed in [#43472](https://github.com/microsoft/playwright/pull/43472)
+- **XERJ Corpus Hub** · my #3199 fix is indexed as a [contributor corpus](https://hub.xerj.org/contributors/nancy6547), a reference library AI coding agents search before writing code
 - **Twenty** · reported [#28342](https://github.com/twentyhq/twenty/issues/28342), Links field dropping slashes in query/hash, fixed in [#28421](https://github.com/twentyhq/twenty/pull/28421)
 
 ### Projects
