@@ -1,6 +1,6 @@
 ## Nancy Singh
 
-I work on browser testing tools and LLM reliability. 2026 CS graduate, Delhi.
+I work on browser testing tools and LLM reliability(open to work). 2026 CS graduate, Delhi.
 
 ### Open source
 
