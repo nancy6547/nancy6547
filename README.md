@@ -4,7 +4,7 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 
 ### Open source
 
-10 PRs merged into Google, Hugging Face and Confident AI projects, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
+10 PRs merged: 8 into Google's Puppeteer and Chrome DevTools MCP, 1 into Hugging Face, 1 into Confident AI's DeepEval, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
 
 - **Puppeteer** · [#15587](https://github.com/puppeteer/puppeteer/pull/15587) WebSocket handshake timeout · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `setGeolocation(null)` clears the override · [#15595](https://github.com/puppeteer/puppeteer/pull/15595) `respond()` skips undefined headers on CDP · [#15697](https://github.com/puppeteer/puppeteer/pull/15697) BiDi `respond()`/`abort()` no longer reject for gone requests
 - **Chrome DevTools MCP** · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console, network and Lighthouse fixes
@@ -19,12 +19,15 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 
 | | |
 |---|---|
-| [Junban](https://github.com/nancy6547/junban) | Finds the API response order that breaks a flaky Playwright test. 6/6 rare races by run 5, vs 2 in 3,000 plain reruns. |
+| [Junban](https://github.com/nancy6547/junban) | Finds the API response order that breaks a flaky Playwright test. Caught 6/6 rare races by run 5; 3,000 plain reruns caught only 2/6. |
 | [Zeitaku](https://github.com/nancy6547/zeitaku) | Replaces hard-coded sleeps in Playwright tests with network-aware waits over CDP. Built after the Documenso #3445 analysis. |
 | [HalluGuard](https://github.com/nancy6547/halluguard) | Flags RAG answer sentences their sources don't support, using an NLI cross-encoder. |
 | [Kensa](https://github.com/nancy6547/kensa) | Metamorphic testing for RAG apps. |
 | [DocMind](https://github.com/nancy6547/docmind) | Question answering over PDFs, scanned ones included, with hybrid search. |
+| [Attention-Guard](https://github.com/nancy6547/attention-guard) | Learns your personal "drifting" pattern from activity and 20-minute check-ins, and nudges you when focus slips. Runs fully on-device. |
 
 TypeScript · Python · Playwright · Chrome DevTools Protocol · PyTorch
 
-[nancy6547.github.io](https://nancy6547.github.io) · [LinkedIn](https://linkedin.com/in/nancy-singh-84367722a) · singhnancy2004@gmail.com
+**Writing:** [I keep building tools that catch software lying about whether it works](https://medium.com/@singhnancy2004/i-keep-building-tools-that-catch-software-lying-about-whether-it-works-43ef67480b8e)
+
+[nancy6547.github.io](https://nancy6547.github.io) · [LinkedIn](https://linkedin.com/in/nancy-singh-84367722a) · [X](https://x.com/Nancysingh251) · [Medium](https://medium.com/@singhnancy2004) · singhnancy2004@gmail.com
