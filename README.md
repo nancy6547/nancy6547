@@ -21,6 +21,7 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 | | |
 |---|---|
 | [Junban](https://github.com/nancy6547/junban) | Finds the API response order that breaks a flaky Playwright test. Caught 6/6 rare races by run 5; 3,000 plain reruns caught only 2/6. |
+| [Saisei](https://github.com/nancy6547/saisei) | Records API responses once and replays them, so flaky Playwright tests become deterministic: a race-dependent test went from 47/100 to 100/100. Also replays in a chosen order to reproduce races, and flags API drift. |
 | [Zeitaku](https://github.com/nancy6547/zeitaku) | Replaces hard-coded sleeps in Playwright tests with network-aware waits over CDP. Built after the Documenso #3445 analysis. |
 | [HalluGuard](https://github.com/nancy6547/halluguard) | Flags RAG answer sentences their sources don't support, using an NLI cross-encoder. |
 | [Kensa](https://github.com/nancy6547/kensa) | Metamorphic testing for RAG apps. |
