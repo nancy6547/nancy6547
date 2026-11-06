@@ -4,12 +4,13 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 
 ### Open source
 
-10 PRs merged: 8 into Google's Puppeteer and Chrome DevTools MCP, 1 into Hugging Face, 1 into Confident AI's DeepEval, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
+10 PRs merged: 8 into Google's Puppeteer and Chrome DevTools MCP, 1 into Hugging Face, 1 into Confident AI's DeepEval, a co-authored example in Instructor, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
 
 - **Puppeteer** · [#15587](https://github.com/puppeteer/puppeteer/pull/15587) WebSocket handshake timeout · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `setGeolocation(null)` clears the override · [#15595](https://github.com/puppeteer/puppeteer/pull/15595) `respond()` skips undefined headers on CDP · [#15697](https://github.com/puppeteer/puppeteer/pull/15697) BiDi `respond()`/`abort()` no longer reject for gone requests
 - **Chrome DevTools MCP** · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console, network and Lighthouse fixes
 - **sentence-transformers** · [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) PListMLE custom rank discount received a mask instead of ranks
 - **DeepEval** · [#3470](https://github.com/confident-ai/deepeval/pull/3470) JSON dataset loader crashed on null `tools_called`/`expected_tools` (reported as [#3469](https://github.com/confident-ai/deepeval/issues/3469))
+- **Instructor** · proposed a claim-decomposition example for fact-checking pipelines ([#2531](https://github.com/567-labs/instructor/pull/2531)); the maintainer incorporated it into `main` with co-author credit ([d1cfa23](https://github.com/567-labs/instructor/commit/d1cfa23b59049a106c6cc1963d1dc129795e8e57))
 - **Playwright** · reported [#43459](https://github.com/microsoft/playwright/issues/43459), a codegen escaping bug, fixed in [#43472](https://github.com/microsoft/playwright/pull/43472)
 - **Documenso** · reported [#3445](https://github.com/documenso/documenso/issues/3445), ~26 redundant `waitForTimeout` calls (~27.5 s of fixed sleep) found by parsing the E2E suite with the TypeScript Compiler API, fixed in [#3536](https://github.com/documenso/documenso/pull/3536)
 - **XERJ Corpus Hub** · my #3199 fix is indexed as a [contributor corpus](https://hub.xerj.org/contributors/nancy6547), a reference library AI coding agents search before writing code
