@@ -4,9 +4,9 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 
 ### Open source
 
-10 PRs merged: 8 into Google's Puppeteer and Chrome DevTools MCP, 1 into Hugging Face, 1 into Confident AI's DeepEval, a co-authored example in Instructor, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
+11 PRs merged: 9 into Google's Puppeteer and Chrome DevTools MCP, 1 into Hugging Face, 1 into Confident AI's DeepEval, a co-authored example in Instructor, plus bugs I found in Microsoft Playwright, Twenty and Documenso that their teams fixed.
 
-- **Puppeteer** · [#15587](https://github.com/puppeteer/puppeteer/pull/15587) WebSocket handshake timeout · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `setGeolocation(null)` clears the override · [#15595](https://github.com/puppeteer/puppeteer/pull/15595) `respond()` skips undefined headers on CDP · [#15697](https://github.com/puppeteer/puppeteer/pull/15697) BiDi `respond()`/`abort()` no longer reject for gone requests
+- **Puppeteer** · [#15587](https://github.com/puppeteer/puppeteer/pull/15587) WebSocket handshake timeout · [#15590](https://github.com/puppeteer/puppeteer/pull/15590) `setGeolocation(null)` clears the override · [#15595](https://github.com/puppeteer/puppeteer/pull/15595) `respond()` skips undefined headers on CDP · [#15697](https://github.com/puppeteer/puppeteer/pull/15697) BiDi `respond()`/`abort()` no longer reject for gone requests · [#15653](https://github.com/puppeteer/puppeteer/pull/15653) BiDi `respond()` lets `contentType` replace a content-type header
 - **Chrome DevTools MCP** · [#3144](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3144) · [#3148](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3148) · [#3198](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3198) · [#3199](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3199) console, network and Lighthouse fixes
 - **sentence-transformers** · [#4204](https://github.com/huggingface/sentence-transformers/pull/4204) PListMLE custom rank discount received a mask instead of ranks
 - **DeepEval** · [#3470](https://github.com/confident-ai/deepeval/pull/3470) JSON dataset loader crashed on null `tools_called`/`expected_tools` (reported as [#3469](https://github.com/confident-ai/deepeval/issues/3469))
