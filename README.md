@@ -15,7 +15,7 @@ I work on browser testing tools and LLM reliability (open to work). 2026 CS grad
 - **Playwright** · reported [#43459](https://github.com/microsoft/playwright/issues/43459), a codegen escaping bug, fixed in [#43472](https://github.com/microsoft/playwright/pull/43472)
 - **Documenso** · reported [#3445](https://github.com/documenso/documenso/issues/3445), ~26 redundant `waitForTimeout` calls (~27.5 s of fixed sleep) found by parsing the E2E suite with the TypeScript Compiler API, fixed in [#3536](https://github.com/documenso/documenso/pull/3536)
 - **XERJ Corpus Hub** · my #3199 fix is indexed as a [contributor corpus](https://hub.xerj.org/contributors/nancy6547), a reference library AI coding agents search before writing code
-- **Twenty** · reported [#28342](https://github.com/twentyhq/twenty/issues/28342), Links field dropping slashes in query/hash, fixed in [#28421](https://github.com/twentyhq/twenty/pull/28421)
+- **Twenty (YC)** · reported [#28342](https://github.com/twentyhq/twenty/issues/28342) with the root cause; Twenty’s co-founder Charles Bochet wrote and merged the fix [#28421](https://github.com/twentyhq/twenty/pull/28421)
 
 ### Projects
 
